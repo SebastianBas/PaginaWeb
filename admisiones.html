@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Caompatible" content="ie=edge">
     <title>University ABC</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
 
@@ -31,12 +31,16 @@
 
     <div class="container">
         <form action="" method="">
+            <div class="container">
+
             <table>
                 <tr>
                     <td><img src="img/abc.png " height="150px" width="150px" alt="Logo Universidad"></td>
                     <td><a style="color: rgb(0, 0, 0); font-size: 40px;"><br>BIENVENIDOS<br> A LA <br>UNIVERSIDAD ABC</a></td>
                 </tr>
             </table>
+
+           
 
             <h2> FORMULARIO INSCRIPCION UNIVERSIDAD</h2><br> 
             <h3> 1. DATOS PERSONALES</h3>
@@ -226,8 +230,9 @@
             <label for="disc">Discapacitado</label>
             <input type="checkbox" id="disc"><br><br>
     
-            <input type="button" id="boton" value="Registrar">
-            <button type="reset">Limpiar</button><br><br>
+            <button type="submit"><ion-icon name="add-circle-outline"></ion-icon>Registrar</button>
+            <button type="reset"> <ion-icon name="trash-outline"></ion-icon>Limpiar</button><br><br>
+            </div>  
 
     
         </form>
@@ -275,5 +280,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
