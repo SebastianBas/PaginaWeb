@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Caompatible" content="ie=edge">
+    <title>University ABC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+        <a href="home.html" class="brand-logo"  style="color: rgb(0, 0, 0); font-size: 32px;"><img src="img/abc.png " height="40px" width="40px" alt="Logo Universidad">University ABC</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="universidad.html" style="color: rgb(0, 0, 0); font-size: 25px;">La Universidad</a></li>
+            <li><a href="formacion.html"style="color: rgb(0,0,0);font-size: 25px;">Formación</a></li>
+            <li><a href="admisiones.html"style="color: rgb(0,0,0);font-size: 25px;">Admiciones</a></li>
+            <li><a href="servicios.html"style="color: rgb(0,0,0);font-size: 25px;">Servicios</a></li>
+            <li><a href="contactanos.html"style="color: rgb(0,0,0);font-size: 25px;">Contactanos</a></li>
+        </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <form action="" method="">
+            <table>
+                <tr>
+                    <td><img src="img/abc.png " height="150px" width="150px" alt="Logo Universidad"></td>
+                    <td><a style="color: rgb(0, 0, 0); font-size: 40px;"><br>BIENVENIDOS<br> A LA <br>UNIVERSIDAD ABC</a></td>
+                </tr>
+            </table>
+
+            <h2> FORMULARIO INSCRIPCION UNIVERSIDAD</h2><br> 
+            <h3> 1. DATOS PERSONALES</h3>
+            
+    
+            <p> Ingrese los Datos del Estudiante:</p>
+            <label for nombre> Nombre del estudiante</label>
+            <input type="text" id nombre placeholder="Escriba su nombre"><br>
+            <label for nombre> Apellido del estudiante</label>
+            <input type="text" id apellido placeholder="Escriba su apellido"><br><br>
+            <label for celular> Celular: </label>
+            <input type="number" id celular placeholder="Escribe tu numero de tel">
+            <label for correo>  correo: </label>
+            <input type="email" id="correo" placeholder="escribe aqui tu correo" ><br><br>
+            
+            <br>
+            <p>Seleccione el tipo de documento:</p>
+            <label for identifiacaion></label>
+            <label for="Tarjeta identidad">Tarjeta </label>
+            <input type="radio" id="Tarjeta identidad" name="identificacion">
+            <label for="cedula">Cedula </label>
+            <input type="radio" id="cedula" name="identificacion">
+            <label for="pasaporte">Pasaporte </label>
+            <input type="radio" id="pasaporte" name="identificacion">
+            <label for="extranjero">ID_Extranjero </label>
+            <input type="radio" id="extranjero" name="identificacion"><br><br>
+            <label>Cargue Aqui su documento de identificacion: </label><br>
+            identifiacaion<input type="file" id=" identifiacaion"><br>
+    
+            <br>
+            <br>
+            <p> Ingrese fecha de nacimiento:</p>
+            <label for fecha_nac> Fecha Nacimiento:  </label>
+            <input type="date" id="fecha_nac"><br><br>
+    
+            <p>Sexo:</p>
+            <label for genero></label>
+            <label for="M">MASCULINO</label>
+            <input type="radio" id="M" name="genero">
+            <label for="F">FEMENINO</label>
+            <input type="radio" id="F" name="genero">
+            <label for="O">OTRO</label>
+            <input type="radio" id="O" name="genero">
+            <p>si su respuesta fue otro escriba cual:</p>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui"></textarea>
+            <br><br>
+    
+            <label estudiante>¿Presenta alguna discapacidad?</label>
+            <label for estudiante></label>
+            <label for="si">SI</label>
+            <input type="radio" id="si" name="estudiante">
+            <label for="no">NO</label>
+            <input type="radio" id="si" name="estudiante"> <br>
+            <label >si su respuesta fue SI dijite la discapacidad</label><br><br>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui "></textarea>
+            <br><br>
+    
+            <p>Dirección:</p>
+            <label for pais> Pais de Residencia</label>
+            <input type="text" id pais placeholder="Escriba aqui"><br>
+            <label for departamento> Departamento de Residencia</label>
+            <input type="text" id departamento placeholder="Escriba aqui"><br>
+            <label for municipio> Municipio de Residencia</label>
+            <input type="text" id municipio placeholder="Escriba aqui"><br>
+            <label for residencia> Escriba la direccion</label>
+            <input type="text" id residencia placeholder="direccion"><br><br>
+           
+            <h3>2. DATOS ACADEMICOS</h3>
+            
+            <p>Seleccione tipo de colegio</p>
+            <label for tipo></label>
+            <label for="Priv">Privado</label>
+            <input type="radio" id="Priv" name="tipo">
+            <label for="Pub">Pubico</label>
+            <input type="radio" id="Pub" name="tipo"><br><br><br>
+            <label for colegio> Digite el nombre del colegio</label>
+            <input type="text" id colegio placeholder="Escriba aqui"><br><br>
+            <label>Cargue el diploma aqui: </label><br>
+            Diploma <input type="file" id=" diploma"><br><br>
+    
+            <p>Informacion respecto a las pruebas ICFES<br>
+            Seleccione el tipo de prueba:</p>
+            <label for icfes></label>
+            <label for="ac">AC</label>
+            <input type="radio" id="ac" name="icfes">
+            <label for="vg">VG</label>
+            <input type="radio" id="vg" name="icfes"><br><br>
+            <label for="icfes">Digite el codigo del ICFES</label>
+            <input type="text" id="icfes" placeholder="Escribe aqui el codigo AC/VG"><br><br>
+            <label>Cargue el soporte de las ICFES aqui: </label><br>
+            Icfes<input type="file" id=" icfes"><br><br>
+    
+            <h3>3. DATOS SOCIOECONOMICOS</h3>
+            <p>Seleccione su estrato</p>
+            <label for="estrato"> Estrato</label>
+            <select id="estrato">
+                <option disabled selected> Escoja una opcion</option>
+                <option> Estrato 1</option>
+                <option> Estrato 2</option>
+                <option> Estrato 3</option>
+                <option> Estrato 4</option>
+                <option> Estrato 5</option>
+                <option> Estrato 6</option>
+            </select>
+            <br><br>
+            <p>¿Usted trabaja?</p>
+            <label for trabajo></label>
+            <label for="si">SI</label>
+            <input type="radio" id="si" name="trabajo">
+            <label for="no">NO</label>
+            <input type="radio" id="no" name="trabajo">
+            <p>Si su respuesta fue si cuanto es el rango de dinero que recibe mensual</p>
+            <label for="dinero"> Dinero</label>
+            <select id="dinero">
+                <option disabled selected> Escoja una opcion</option>
+                <option> 0- 400.000</option>
+                <option> 400.000 - 500.000</option>
+                <option> 500.000 - 900.000</option>
+                <option> 900.000 - 1.500.000</option>
+                <option> otro</option>
+            </select>
+            <br><br>
+            <label >si su respuesta fue otra dijite el monto</label><br>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui el monto"></textarea>
+            <br><br>
+    
+            <p>Informacion de la familia</p><br>
+            <label >Informacion del padre</label><br>
+            <label for nombre> Nombre del padre</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre del padre">
+            <label for edad> Edad del padre</label>
+            <input type="number" id="edad"  placeholder="Escriba la edad del padre"><br><br>
+            <label for oficio>Oficio del padre</label>
+            <input type="text" id="oficio" placeholder="Escriba oficio del padre">
+            <label padre>¿Presenta alguna discapacidad?</label>
+            <label for padre></label>
+            <label for="si">SI</label>
+            <input type="radio" id="si" name="padre">
+            <label for="no">NO</label>
+            <input type="radio" id="si" name="padre"> <br>
+            <label >si su respuesta fue SI dijite la discapacidad</label><br><br>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui "></textarea>
+            <br><br>
+    
+            <label >Informacion de la madre</label><br>
+            <label for nombre> Nombre de la madre</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre de la madre">
+            <label for edad> Edad del padre</label>
+            <input type="number" id="edad"  placeholder="Escriba la edad de la madre"><br><br>
+            <label for oficio>Oficio del padre</label>
+            <input type="text" id="oficio" placeholder="Escriba oficio de la madre">
+            <label padre>¿Presenta alguna discapacidad?</label>
+            <label for madre></label>
+            <label for="si">SI</label>
+            <input type="radio" id="si" name="madre">
+            <label for="no">NO</label>
+            <input type="radio" id="si" name="madre"> <br>
+            <label >si su respuesta fue SI dijite la discapacidad</label><br><br>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui "></textarea>
+            <br><br>
+    
+            <p>Cuanto dinero entra Mensualmente en su familia</p>
+            <label for="dinero"> Dinero</label>
+            <select id="dinero">
+                <option disabled selected> Escoja una opcion</option>
+                <option> 0- 500.000</option>
+                <option> 600.000 - 1.000.000</option>
+                <option> 1.200.000 - 1.800.000</option>
+                <option> 1.800.000 - 2.500.000</option>
+                <option> 2.500.000 - 4.000.000</option>
+                <option> otro</option>
+            </select>
+            <br>
+            <label >si su respuesta fue otra dijite el monto</label><br><br>
+            <textarea cols="40" rows="5" placeholder="Escriba aqui el monto"></textarea>
+            <br><br>
+    
+            <p>¿su familia permenece a alguna poblacion vulnerable? marque a cual</p>
+            <label for="indigena">Indigena</label>
+            <input type="checkbox" id="indigena"><br>
+            <label for="neg">Comunidades Afros</label>
+            <input type="checkbox" id="neg"><br>
+            <label for="desp">Desplazados</label>
+            <input type="checkbox" id="desp"><br>
+            <label for="inmi">Inmigrantes</label>
+            <input type="checkbox" id="inmi"><br>
+            <label for="disc">Discapacitado</label>
+            <input type="checkbox" id="disc"><br><br>
+    
+            <input type="button" id="boton" value="Registrar">
+            <button type="reset">Limpiar</button><br><br>
+
+    
+        </form>
+    </div>
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/abc.png" alt="Universidad">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <P>En la Universidad Innovación y Excelencia, estamos comprometidos con la formación 
+                    de líderes y profesionales altamente capacitados que transformarán el mundo. Como 
+                    institución educativa de renombre, nos enorgullece ofrecer una amplia gama de programas
+                     académicos de calidad, que abarcan diversas áreas de estudio.
+                     Contamos con un destacado cuerpo docente compuesto por profesionales altamente calificados 
+                     y con experiencia en sus respectivas disciplinas. Nuestros profesores no solo son expertos 
+                     en sus campos, sino que también se dedican a inspirar y guiar a nuestros estudiantes en su
+                      proceso de aprendizaje
+                </P>
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>University ABC</b>- Todos los Derechos Reservados.</small>
+        </div>
+
+    </footer>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+    .contenedor {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #060605;
+    padding: 20px;
+    
+   
+		background-image: url('fondo.png');
+		background-size: 100% 100%;
+		
+    }
+  
+
+  
+ 
+  .contenedor p {
+    color: #010101;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .contenedor h1 {
+    color: #100f11;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .contenedor h3 {
+    color: #000000;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    font-style: italic;
+  }
+  
+  .contenedor label {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  td {
+    border: 1px solid #000000;
+    padding: 8px;
+    vertical-align: top;
+  }
+
+  
